@@ -1,0 +1,18 @@
+.scale(@zoom-hor,@zoom-ver){
+  -webkit-transform: scale(@zoom-hor,@zoom-ver);
+  -moz-transform: scale(@zoom-hor,@zoom-ver);
+  -ms-transform: scale(@zoom-hor,@zoom-ver);
+  -o-transform: scale(@zoom-hor,@zoom-ver);
+  transform: scale(@zoom-hor,@zoom-ver);
+};
+.box-shadow(@x: 0, @y: 0, @blur: 10px, @color: #666) {
+  -webkit-box-shadow: @arguments;
+  box-shadow: @arguments;
+};
+.text-shadow(@x: 1px, @y: 1px, @radius: 2px, @color: #000){
+  -webkit-text-shadow: @arguments;
+     -moz-text-shadow: @arguments;
+          text-shadow: @arguments;
+};
+
+
