@@ -94,12 +94,12 @@ var model = {
     /*=================== КОЛЯСКИ ====================*/
     tablePram:[{
             name:"Коляска детская",
-            price:"15 - 25",
+            price:"30 - 50",
             photo: "img/colyaska.jpg"
         },
         {
             name:"Автокресло",
-            price:"10 - 15",
+            price:"25",
             photo: "img/kreslo.jpg"
         }
     ],
